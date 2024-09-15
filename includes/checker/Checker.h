@@ -13,7 +13,9 @@ private:
 
 public:
     Checker();
-    Checker(Phrase& phrase);
+    Checker(Phrase* phrase);
+    
+    void set_checker(Phrase *phrase);
 
     bool hasLetter(const Letter& letter) const;
 };

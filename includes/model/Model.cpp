@@ -7,12 +7,14 @@ Model::Model(){
     _phrase.setPhrase("_");
     _incorrectLetters.setWord("_");
     _prompt.setPhrase("_");
+    _checker.set_checker(&_phrase);
 };
 
 Model::Model(const std::string& phrase,const std::string& incorrectLetters,const std::string& prompt){
     _phrase.setPhrase(phrase);
     _incorrectLetters.setWord(incorrectLetters);
     _prompt.setPhrase(prompt);
+    // _checker.set_checker(&_phrase);
 };
 
 //============================================================================

@@ -6,6 +6,7 @@
 #define HANGMAN_CONTROLLER_H
 
 #include "../model/Model.h"
+#include "../checker/Checker.h"
 
 class Controller
 {

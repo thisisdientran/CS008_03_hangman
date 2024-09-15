@@ -5,7 +5,7 @@
 #include "Controller.h"
 
 Controller::Controller(){
-
+    _model = NULL;
 }
 
 Controller::Controller(Model &model){

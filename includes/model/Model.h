@@ -5,6 +5,7 @@
 #include "../letter/Letter.h"
 #include "../word/Word.h"
 #include "../phrase/Phrase.h"
+#include "../checker/Checker.h"
 
 class Model{
     private:
@@ -12,6 +13,7 @@ class Model{
         Phrase _phrase;
         Word _incorrectLetters;
         Phrase _prompt;
+        Checker _checker;
     public:
     // Constructors
         Model();
