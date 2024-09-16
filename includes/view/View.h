@@ -22,6 +22,8 @@ public:
     const Controller* getController() const;
     void setController(Controller &controller);
 
+    Phrase getPhrase();
+
     friend std::ostream& operator<<(std::ostream& out, const View& view);
     /***
      * Create getters and setters for private member variables

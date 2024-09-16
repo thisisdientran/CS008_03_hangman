@@ -21,10 +21,12 @@ public:
     void setModel(Model &model);
 
     //Member Functions
-
+    bool hasLetter(const Letter& letter) const;
     /*
      *  Get User data from console and update the view accordingly
      */
+
+    
 };
 
 //

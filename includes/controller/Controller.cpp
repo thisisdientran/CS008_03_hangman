@@ -19,3 +19,7 @@ const Model* Controller::getModel() const{
 void Controller::setModel(Model &model){
     _model = &model;
 }
+
+bool Controller::hasLetter(const Letter& letter) const{
+    return _model -> hasLetter(letter);
+}

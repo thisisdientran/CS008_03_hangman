@@ -54,3 +54,10 @@ void Model::setIncorrectLetters(const std::string& incorrectLettersString){
 void Model::setPrompt(const std::string& prompt){
     _prompt.setPhrase(prompt);
 };
+
+//============================================================================
+// Member Functions
+//============================================================================
+bool Model::hasLetter(const Letter& letter) const{
+    return _checker.hasLetter(letter);
+}

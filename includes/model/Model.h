@@ -32,7 +32,8 @@ class Model{
         void setIncorrectLetters(const std::string& incorrectLettersString);
         void setPrompt(const std::string& prompt);
 
-    
+    // Member functions
+        bool hasLetter(const Letter& letter) const;
 };
 
 
