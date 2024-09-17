@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <time.h>
@@ -10,6 +11,7 @@ const int GRID_HEIGHT = 110;
 const int CELL_SIZE = 5;
 
 using namespace std;
+
 
 // class GraphicView:public sf::Drawable(){
 //     public:
